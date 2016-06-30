@@ -1,81 +1,114 @@
 {
-    "title": "007 James Bond's CV",
-    "author": "nevermoi",
-    "updatedOn": "2016-02-18",
-    "firstName": "007",
-    "lastName": "James Bond",
-    "description": "A MI6 agent & killer & programmer",
-    "email": "jb007@mi6.gov",
-    "phone": "(021) 3456 5432",
-    "github": "https://github.com/j007",
-    "linkedin": "https://sg.linkedin.com/in/j007",
-    "website": "http://james007.com",
+    "title": "Yue Liang's resume",
+    "author": "Yue Liang",
+    "updatedOn": "2016-06-29",
+    "firstName": "Yue",
+    "lastName": "Liang",
+    "description": "Looking for a full-time job as a software engineer",
+    "email": "liangyue268@gmail.com",
+    "phone": "551-482-9236",
+    "github": "https://github.com/liangyue268",
+    "linkedin": "https://www.linkedin.com/in/yliang9",
+    "website": "http://www.liangyue268.com/",
 
-    "stacks": [
+    "educations": [
         {
-            "primary": "Java",
-            "enum": ["Spring MVC", "Maven", "Hibernate"]
+            "degree": "Master of Science in Computer Engineering",
+            "university": "Stevens Institute of Technology",
+            "website": "https://www.stevens.edu/",
+            "grantedDate": "2014/08 - 2016/05"
         },
         {
-            "primary": "JavaScript",
-            "enum": ["Nodejs", "Reactjs", "jQuery", "Vuejs"]
-        },
-        {
-            "primary": "Python",
-            "enum": ["Flask", "Beautiful Soup"]
-        },
-        {
-            "primary": "Others",
-            "enum": ["gun", "cannon", "rocket"]
+            "degree": "Bachelor of Science in Electrical Engineering",
+            "university": "Xidan University",
+            "website": "http://www.xidian.edu.cn/",
+            "grantedDate": "2010/08 - 2014/06"
         }
     ],
 
-    "careers": [
+    "stacks": [
         {
-            "company": "MI6",
-            "location": "Cambridge",
-            "title": "Agent",
-            "startDate": "Jan, 2010",
-            "endDate": "Present",
-            "contributions": [
-                "Classified"
-            ]
+            "primary": "Programming Languages: ",
+            "enum": ["JAVA", "C/C++", "C#", "JavaScript", "Node.js", "Python", "SQL"]
         },
         {
-            "company": "MI6",
-            "location": "Cambridge",
-            "title": "Agent Intern",
-            "startDate": "Sept, 2006",
-            "endDate": "Dec, 2006",
-            "contributions": [
-                "Classified"
-            ]
+            "primary": "Web Technology: ",
+            "enum": ["HTML", "CSS", "Servlet/JSP", "Apache Tomcat", "MVC", "TCP/IP"]
+        },
+        {
+            "primary": "Tools Set: ",
+            "enum": ["AWS", "Git", "Hadoop", "React", "UML", "Eclipse", "IntelliJ"]
+        },
+        {
+            "primary": "Database: ",
+            "enum": ["Linux", "Unix", "Mac OSX", "Windows"]
+        },
+        {
+            "primary": "Operating System: ",
+            "enum": ["MySQL", "PostgreSQL"]
         }
     ],
 
     "projects": [
         {
-            "title": "Skyfall",
-            "company": "MI6",
+            "title": "LiQuiz",
+            "startDate": "2015/05",
+            "endDate": "2015/07",
             "descriptions": [
-                "With MI6 now compromised inside and out, M turns to the one man she can trust: Bond. Aided only by a field agent."
-            ]
+                "Designed a calendar and quiz UI by the use of HTML, JavaScript and AJAX",
+                "Support multiple simultaneous connections with real-time response",
+                "Used Git version control system to track progress and collaborate",
+                "Was a good team player, project website: https://sites.google.com/site/liquizyy/"
+            ],
+            "tech": "JAVA, Git, JavaScript, AJAX, HTML, JSON"
         },
         {
-            "title": "Spectre",
-            "company": "MI6",
+            "title": "Cloud Storage and Rating System",
+            "startDate": "2015/03",
+            "endDate": "2015/05",
             "descriptions": [
-                "A cryptic message from the past leads James Bond to Mexico City and Rome, where he meets the beautiful widow  of an infamous criminal.",
-                "As Bond ventures toward the heart of SPECTRE, he discovers a chilling connection between himself and the enemy he seeks."
-            ]
+                "Developed the website backend framework based on MVC concept and Apache Tomcat",
+                "Designed and implemented the database schema on MySQL to store user info and file metadata",
+                "Cached data in server based on LRU, handling large scale requests with high performance",
+                "Built a PC client by using Java Swing GUI and AWS SDK for java"
+            ],
+            "tech": "AWS S3, Servlet/JSP, Apache Tomcat, MVC, JDBC, MySQL"
+        },
+        {
+            "title": "Data Communication Based on 3G Module",
+            "startDate": "2014/01",
+            "endDate": "2014/06",
+            "descriptions": [
+                "Developed a software for transmitting data in peer-to-peer wireless network by using C# in support of sending different type files regularly and sending short message (SMS)",
+                "Reached 13kb/s maximum download/upload speed without any errors on public 3G network",
+                "Created 3 data structures for maintaining connectivity and transmitting data"
+            ],
+            "tech": "C#, Internet of Things (IoT), TCP/IP"
         }
     ],
 
-    "educations": [
+    "careers": [
         {
-            "degree": "Trouble",
-            "university": "Fettes College",
-            "grantedDate": "July, 1978"
+            "company": "Stevens Institute of Technology",
+            "location": "NJ",
+            "title": "Teaching Assistant",
+            "startDate": "2016/01",
+            "endDate": "2016/05",
+            "contributions": [
+                "Graded assignments and helped students to understand lectures and assignments"
+            ]
+        },
+        {
+            "company": "China Mobile",
+            "location": "China",
+            "title": "Software Engineer (Sumer Internship)",
+            "startDate": "2013/07",
+            "endDate": "2013/08",
+            "contributions": [
+                "Created and modified the test cases, designed the acceptance criteria for each test case and executed the tests according to the test cases",
+                "Wrote a test report showing the results and gave improvement suggestions"
+            ]
         }
     ]
+    
 }
