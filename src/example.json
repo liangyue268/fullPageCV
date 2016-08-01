@@ -16,13 +16,13 @@
             "degree": "Master of Science in Computer Engineering",
             "university": "Stevens Institute of Technology",
             "website": "https://www.stevens.edu/",
-            "grantedDate": "2014/08 - 2016/05"
+            "grantedDate": "08/2014 - 05/2016"
         },
         {
             "degree": "Bachelor of Science in Electrical Engineering",
             "university": "Xidan University",
             "website": "http://www.xidian.edu.cn/",
-            "grantedDate": "2010/08 - 2014/06"
+            "grantedDate": "08/2010 - 06/2014"
         }
     ],
 
@@ -40,50 +40,12 @@
             "enum": ["AWS", "Git", "Hadoop", "React", "UML", "Eclipse", "IntelliJ"]
         },
         {
-            "primary": "Database: ",
+            "primary": "Operating System: ",
             "enum": ["Linux", "Unix", "Mac OSX", "Windows"]
         },
         {
-            "primary": "Operating System: ",
+            "primary": "Database: ",
             "enum": ["MySQL", "PostgreSQL"]
-        }
-    ],
-
-    "projects": [
-        {
-            "title": "LiQuiz",
-            "startDate": "2015/05",
-            "endDate": "2015/07",
-            "descriptions": [
-                "Designed a calendar and quiz UI by the use of HTML, JavaScript and AJAX",
-                "Support multiple simultaneous connections with real-time response",
-                "Used Git version control system to track progress and collaborate",
-                "Was a good team player, project website: https://sites.google.com/site/liquizyy/"
-            ],
-            "tech": "JAVA, Git, JavaScript, AJAX, HTML, JSON"
-        },
-        {
-            "title": "Cloud Storage and Rating System",
-            "startDate": "2015/03",
-            "endDate": "2015/05",
-            "descriptions": [
-                "Developed the website backend framework based on MVC concept and Apache Tomcat",
-                "Designed and implemented the database schema on MySQL to store user info and file metadata",
-                "Cached data in server based on LRU, handling large scale requests with high performance",
-                "Built a PC client by using Java Swing GUI and AWS SDK for java"
-            ],
-            "tech": "AWS S3, Servlet/JSP, Apache Tomcat, MVC, JDBC, MySQL"
-        },
-        {
-            "title": "Data Communication Based on 3G Module",
-            "startDate": "2014/01",
-            "endDate": "2014/06",
-            "descriptions": [
-                "Developed a software for transmitting data in peer-to-peer wireless network by using C# in support of sending different type files regularly and sending short message (SMS)",
-                "Reached 13kb/s maximum download/upload speed without any errors on public 3G network",
-                "Created 3 data structures for maintaining connectivity and transmitting data"
-            ],
-            "tech": "C#, Internet of Things (IoT), TCP/IP"
         }
     ],
 
@@ -92,22 +54,74 @@
             "company": "Stevens Institute of Technology",
             "location": "NJ",
             "title": "Teaching Assistant",
-            "startDate": "2016/01",
-            "endDate": "2016/05",
+            "startDate": "01/2016",
+            "endDate": "05/2016",
             "contributions": [
                 "Graded assignments and helped students to understand lectures and assignments"
             ]
         },
         {
+            "company": "Stevens Institute of Technology",
+            "location": "NJ",
+            "title": "Research Assistant",
+            "startDate": "05/2015",
+            "endDate": "07/2015",
+            "contributions": [
+                "Implemented the front-end of calendar and quiz by the use of HTML, JavaScript and AJAX",
+                "Support multiple simultaneous connections with real-time response",
+                "Used Git version control system to track progress and collaborate",
+                "Was a good team player, project management website: https://sites.google.com/site/liquizyy/"
+            ],
+            "tech": "JavaScript, AJAX, HTML, JSON, Git"
+        },
+        {
             "company": "China Mobile",
             "location": "China",
             "title": "Software Engineer (Sumer Internship)",
-            "startDate": "2013/07",
-            "endDate": "2013/08",
+            "startDate": "06/2013",
+            "endDate": "08/2013",
             "contributions": [
                 "Created and modified the test cases, designed the acceptance criteria for each test case and executed the tests according to the test cases",
                 "Wrote a test report showing the results and gave improvement suggestions"
-            ]
+            ],
+            "tech": "Software Testing, System Testing, Black-box Testing, Test Case"
+        }
+    ],
+
+    "projects": [
+        {
+            "title": "Android APP: Weather",
+            "startDate": "03/2016",
+            "endDate": "05/2016",
+            "descriptions": [
+                "Created a list based user interface to display detailed weather forecast in the next 7 days",
+                "Fetched and parsed real-time weather data by the Open Weather Map API",
+                "Provided settings to choose location and temperature unit"
+            ],
+            "tech": "Android development, Multithreading, JSON"
+        },
+        {
+            "title": "Cloud Storage and Rating System",
+            "startDate": "03/2015",
+            "endDate": "05/2015",
+            "descriptions": [
+                "Developed the website backend framework based on MVC concept and Apache Tomcat",
+                "Designed and implemented the database schema on MySQL to store user info and file metadata",
+                "Cached data in server based on LRU, handling large scale requests with high performance",
+                "Built a PC client by using Java Swing GUI and AWS SDK for java"
+            ],
+            "tech": "JAVA, AWS S3, Servlet/JSP, Apache Tomcat, MVC, JDBC, MySQL"
+        },
+        {
+            "title": "Data Communication Based on 3G Module",
+            "startDate": "01/2014",
+            "endDate": "06/2014",
+            "descriptions": [
+                "Developed a software by using C# in support of sending different type files regularly and sending short message (SMS) based on TCP and UDP protocol",
+                "Created 3 data structures for maintaining connectivity and transmitting data",
+                "Reached 13kb/s maximum download/upload speed without any errors on public 3G network"
+            ],
+            "tech": "C#, Internet of Things (IoT), TCP/IP"
         }
     ]
     

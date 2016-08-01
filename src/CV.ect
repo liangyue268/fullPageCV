@@ -67,6 +67,32 @@
             </div>
 
             <div class="section moveDown" id="section3">
+                <% for job in @careers : %>
+                    <div class="slide">
+                        <h1>Experience</h1>
+                        <div class="wrap">
+                            <div class="entry-panel">
+                                <div class="entry-head">
+                                    <span class="entry-title"><%- job.title %></span> @ <span class="entry-company"><%- job.company %>, <%- job.location %></%-></span>
+                                    <p class="entry-date"><%- job.startDate %> - <%- job.endDate %></p>
+                                </div>
+                                <div class="entry-body">
+                                    <ul>
+                                    <% for con in job.contributions : %>
+                                        <li><%- con %></li>
+                                    <% end %>
+                                    </ul>
+                                    <% if job.tech : %>
+                                        <p>Tech Stack: <%- job.tech %></p>
+                                    <% end %>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <% end %>
+            </div>
+
+            <div class="section moveDown" id="section3">
                 <% for project in @projects : %>
                     <div class="slide">
                         <h1>Projects</h1>
@@ -90,28 +116,6 @@
                 <% end %>
             </div>
 
-            <div class="section moveDown" id="section3">
-                <% for job in @careers : %>
-                    <div class="slide">
-                        <h1>Experience</h1>
-                        <div class="wrap">
-                            <div class="entry-panel">
-                                <div class="entry-head">
-                                    <span class="entry-title"><%- job.title %></span> @ <span class="entry-company"><%- job.company %>, <%- job.location %></%-></span>
-                                    <p class="entry-date"><%- job.startDate %> - <%- job.endDate %></p>
-                                </div>
-                                <div class="entry-body">
-                                    <ul>
-                                    <% for con in job.contributions : %>
-                                        <li><%- con %></li>
-                                    <% end %>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                <% end %>
-            </div>
         </div>
 
     </body>
